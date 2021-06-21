@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <!--
+        Customize this policy to fit your own app's needs. For more guidance, see:
+            https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
+        Some notes:
+            * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+            * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+            * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+                * Enable inline JS: add 'unsafe-inline' to default-src
+        -->
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+        <meta name="color-scheme" content="light dark">
+        <link rel="stylesheet" href="css/index.css">
+        <title>Penilaian Alternatif</title>
+        <link rel="stylesheet" href="jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.css">
+        <script src="jquery-1.10.1.js"></script>
+        <script src="jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    </head>
+    <body>
+        <div data-role="page" id = "home">
+            <img class = "kambing" src = "img/header.jpg">
+            <div class="topnav">
+                <a class="active" href="#home">Home</a>
+                <a href="#news">News</a>
+                <a href="#fund">Fund Transfer</a>
+              </div>
+            <p id = "berminat">"Berminat Untuk Menternak Kambing?"</p>
+            <p id = "ketahui">Ketahui langkah demi langkah bagaimana anda boleh memulakan penternakan kambing dengan mudah dan menjadi seorang penternak yang berjaya.</p>
+            <div class = "container">
+                <p>Tips & Sampel Percuma!</p>
+                <p id = "eBook">Dapatkan sampel percuma "eBook RahsiaKambing" serta tips-tips menarik mengenai bidang penternakan kambing dari semasa ke semasa dengan melanggan newsletter kami. Masukkan nama dan alamat email anda dibawah untuk melanggan.</p>
+                <div class = "melanggan">
+                    <form class = "form">
+                        Nama: <input type = "text"><br>
+                        Email: <input type = "text"><br>
+                    </form>
+                    <button id = "button" type = "button" onclick = "alert('Tahniah! Anda berjaya melanggan!')">Berikan Saya Tip PERCUMA Tentang Penternakan Kambing SEKARANG!</button>
+                </div>
+            </div>
+            <div class = "dari">
+                <p>Dari Meja Mohamad Farid Sulaiman</p>
+                <p>Selasa, 15 Julai 2008</p>
+            </div>
+        </div>
+        <div data-role="page" id = "news">
+            <img class = "kambing" src = "img/header.jpg">
+            <div class="topnav">
+                <a href="#home">Home</a>
+                <a class="active" href="#news">News</a>
+                <a href="#fund">Fund Transfer</a>
+            </div>
+            <div class = "banduan">
+                <p id = "intro">Assalammualaikum & salam sejahtera... Seringkali... kita terbaca tentang kisah-kisah kejayaan petani dan juga penternak yang mampu menjana pendapatan beribu-ribu ringgit sebulan hasil daripada tanaman dan juga ternakan yang mereka usahakan....</p>
+                <img id = "suratkhabar" src="img/penternakberjaya.jpg">
+                <p>Banyak kisah-kisah kejayaan usahawan-usahawan tani ini dipaparkan, sama ada di akhbar mahupun TV. Kisah-kisah ini amat mengujakan kepada saya, kerana saya amat meminati bidang pertanian dan penternakan. Sememangnya, sudah lama saya menyimpan hasrat untuk menceburkan diri di dalam bidang pertanian dan juga penternakan ini. Tetapi, disebabkan saya bekerja makan gaji.. maka niat tersebut terpaksa dipendamkan.</p>
+                <p id = "hasrat"> Hasrat Terbantut....!</p>
+                <p>Ditambah lagi dengan kekurangan sumber maklumat tentang bagaimana hendak memulakan serta menceburkan diri di dalam projek pertanian & penternakan ini. Menyebabkan, hasrat saya untuk bergelar seorang usahawan tani yang berjaya terbenam.</p>
+                <p>Sehinggalah pada suatu hari, sewaktu saya pulang ke kampung di Melaka, saya telah terserempak dengan seorang pakcik yang menetap di kampung saya. Saya gelarkan dia pakcik H, sejak dulu lagi, saya memang tahu pakcik H ini ada menternak kambing.. tapi pada waktu itu, saya tidak ambil peduli sangat.. maklumlah.. orang kampung bela kambing... biasalah kan?</p>
+                <p>Dulu, pakcik H ini membela 5 ekor kambing.. tapi, setelah 7 tahun berlalu, bilangan kambingnya telah mencecah 1,000 ekor. Pergh!! Saya memang betul-betul tidak sangka.. pakcik H yang dulu saya pandang hanyalah seorang "pakcik kampung yang biasa-biasa".. kini telah bertukar menjadi seorang penternak kambing yang sangat berjaya!.</p>
+                <p>Perkara ini telah membuka minda dan fikiran saya untuk melihat bidang penternakan kambing ini dengan lebih luas & positif. Saya mula mendekati pakcik H dan mula mempelajari serba sedikit mengenai selok belok penternakan kambing. Alhamdulilah.. pakcik H tidak kedekut ilmu dan sudi berkongsi pengalaman beliau di dalam usaha menternak kambing.</p>
+                <p>Saya sangat gembira dan bersyukur mengenali beliau, banyak perkara saya belajar dari beliau dan kini, saya menganggap beliau sebagai salah seorang mentor saya di dalam bidang penternakan kambing.</p>
+                <p>Selepas beberapa pertemuan dengan pakcik H, saya mula mempertimbangkan dengan serius tentang hasrat saya yang ingin menjadi seorang usahawan agro yang berjaya sejak dulu lagi. Untuk itu, saya mula mengiatkan usaha saya mencari lebih banyak info serta ilmu tentang penternakan kambing ini dengan membaca buku , menyertai kursus dan seminar penternakan kambing anjuran badan-badan kerajaan dan juga swasta.</p>
+                <p id = "mulaLangkah">Memulakan Langkah...!</p>
+                <p>Setelah beberapa bulan mentelaah ilmu penternakan kambing, saya pun memulakan langkah pertama saya di dalam bidang penternakan kambing dengan bermodalkan RM7,000 hasil daripada wang simpanan saya. Dengan modal tersebut, saya mula membina kandang kambing dan juga membeli 5 ekor kambing betina dan seekor kambing jantan jamnapari..</p>
+                <p>Alhamdulilah... berbekalkan ilmu yang saya perolehi dari buku, seminar serta tunjuk ajar dari pakcik H. Saya tidak banyak menghadapi masalah di dalam mengusahakan projek penternakan kambing ini. Dalam masa 4 bulan.. dari 6 ekor kambing, ternakan saya telah bertambah menjadi 10 ekor. Selepas hampir setahun mengusahakan penternakan kambing, bilangan ternakan saya sudah mencapai jumlah 20 ekor.</p>
+                <p>Jika hendak diukurkan tahap kejayaan saya.. sememangnya.. perjalanan saya masih jauh. Tapi saya sangat optimis dan percaya , berbekalkan usaha yang gigih serta ilmu yang betul.. kita pasti akan BERJAYA!</p>
+                <p>Melihatkan hasil ternakan kambing saya... membuatkan saya terfikir. Sudah pastinya, ada ramai lagi insan diluar sana yang mengalami nasib yang hampir sama dengan saya. Mereka minat untuk menceburkan diri di dalam bidang penternakan... tetapi malang , tidak mempunyai mentor serta tidak mempunyai sumber maklumat yang mencukupi menyebabkan , niat mereka untuk memulakan penternakan kambing terbantut. Mungkin anda adalah salah seorang daripada mereka?</p>
+                <p>Untuk itu, saya telah mengambil inisiatif, dengan berusaha, mengumpulkan semula maklumat-maklumat yang pernah saya perolehi dulu dan menghimpunkannya, dan akhirnya, jadilah ia sebuah panduan yang lengkap tentang.. “Bagaimana memulakan penternakan kambing?”.</p>
+                <p>Semua maklumat yang saya perolehi dari buku-buku, artikel-artikel, seminar-seminar dan juga serba sedikit dari pengalaman sendiri dan juga pengalaman-pengalaman daripada penternak lain.. kesemuanya telah saya himpunkan dan susunkan ia hingga menjadi sebuah ebook panduan yang lengkap yang saya namakan...</p>
+            </div>
+        </div>
+        <div data-role="page" id = "fund">
+            <img class = "kambing" src = "img/header.jpg">
+            <div class="topnav">
+                <a href="#home">Home</a>
+                <a href="#news">News</a>
+                <a class="active" href="#fund">Fund Transfer</a>
+            </div>
+            <div class = "step">
+                <p>Langkah 1) Sila login ke akaun MayBank2U / CIMBClicks / Bank Islam anda dan lakukan "fund transfer" ke salah satu akaun bank dibawah sebanyak RM47.</p>
+                <p id = "bank">Maybank 564376645376 - Extreme D Enterprise</p>
+                <p id = "bank">Bank Islam 12980035006854 - Siti Norhafezah Maarop</p>
+                <p id = "bank">CIMB 12748238632397 - Mohd Suhaimy Abu Bakar</p>
+                <p>Langkah 2) Selepas itu, simpan resit transaksi yang anda terima dan sila isikan borang pengesahan bayaran dibawah.</p>
+                <p><input type = "checkbox">Ya! Saya telah membuat pembayaran. Sila hantarkan product tersebut ke alamat saya seperti dibawah.</p>
+            </div>
+            <div class = "transfer">
+            <form action = "#" method = "post" onsubmit = "return ValidationEvent()">
+                <label>Nama :</label>
+                <input type = "text" name = "nama" id = "nama" placeholder = "Nama" onfocus = "setStyle(this.id)" onblur = "upperCase(this.id)"/>
+                <label>Email :</label>
+                <input type = "text" name = "email" id = "email" placeholder = "Valid Email">
+                <label>Telefon :</label>
+                <input type = "text" name = "telefon" id = "contact" placeholder = "Telefon">
+                <label>Bank</label>
+                <select id = "language" onchange = "getValue()">
+                    <option value = "Maybank2U">Maybank2U</option>
+                    <option value = "Bank Islam">Bank Islam</option>
+                    <option value = "CIMB Bank">CIMB Bank</option>
+                    </select><br>
+                <label>Bukti Pembayaran :</label>
+                <input type = "text" name = "prove" id = "prove" placeholder = "Gambar">
+                <input type = "Submit" value = "Hantar Maklumat Pembayaran" />
+            </form>
+            </div>
+            <div class="step">
+                <p>Langkah 3) Kami akan menyemak maklumat bayaran anda terlebih dahulu dan ebook tersebut akan dihantar ke email anda dalam masa 24 jam.</p>
+            </div>
+        </div>
+        <script src="cordova.js"></script>
+        <script src="js/index.js"></script>
+    </body>
+</html>
